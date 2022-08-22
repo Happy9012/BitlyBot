@@ -29,7 +29,7 @@ async def Shareus(client,message):
   value  = {'long_url': URL , 'domain': DOMAIN}
   data = json.dumps(value)
   try:
-    r = requests.post('https://shareus.in.in/api', headers=headers,data = data )
+    r = requests.post('https://shareus.io/api', headers=headers,data = data )
     result = r.json()
     link = result["link"]
     await message.reply_text(f"```{link}```", reply_to_message_id= message.message_id)
