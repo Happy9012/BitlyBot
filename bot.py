@@ -29,7 +29,7 @@ async def Bitly(client,message):
   value  = {'long_url': URL , 'domain': DOMAIN}
   data = json.dumps(value)
   try:
-    r = requests.post('https://api-ssl.shareus.io/v4/shorten', headers=headers,data = data )
+    r = requests.post('https://api.shareus.in/shortLink?token=', headers=headers,data = data )
     result = r.json()
     link = result["link"]
     await message.reply_text(f"```{link}```", reply_to_message_id= message.message_id)
