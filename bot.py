@@ -16,7 +16,7 @@ headers = {
 }
 
 
-app = Client("bitlybot" ,bot_token = TOKEN ,api_id = API_ID ,api_hash = API_HASH )
+app = Client("shareusbot" ,bot_token = TOKEN ,api_id = API_ID ,api_hash = API_HASH )
 
 @app.on_message(filters.private & filters.command(['start']))
 async def start(client,message):
