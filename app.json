@@ -14,7 +14,7 @@
             "description": "Your API_HASH from https://my.telegram.org/apps"
         },
         "SHAREUS_TOKEN":{
-            "description": "Your BITLY_TOKEN from https://shareus.in.in/api"
+            "description": "Your BITLY_TOKEN from https://shareus.io/api"
         
         }
     },
