@@ -13,7 +13,7 @@
         "API_HASH": {
             "description": "Your API_HASH from https://my.telegram.org/apps"
         },
-        "BITLY_TOKEN":{
+        "SHAREUS_TOKEN":{
             "description": "Your BITLY_TOKEN from https://bitly.is/accesstoken"
         
         }
