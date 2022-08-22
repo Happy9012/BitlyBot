@@ -23,13 +23,13 @@ async def start(client,message):
   await message.reply_text(f"Hello {message .from_user.first_name}\nhello i am ShareUs short link genrator\n made with love by @Himanshurathore0 ", reply_to_message_id = message.message_id)
   
 @app.on_message(filters.private & filters.regex("http|https"))
-async def Bitly(client,message):
+async def Shareus(client,message):
   URL = message.text
   DOMAIN = "shareus.io"
   value  = {'long_url': URL , 'domain': DOMAIN}
   data = json.dumps(value)
   try:
-    r = requests.post('https://api.shareus.in/shortLink?token=', headers=headers,data = data )
+    r = requests.post('https://shareus.in.in/api', headers=headers,data = data )
     result = r.json()
     link = result["link"]
     await message.reply_text(f"```{link}```", reply_to_message_id= message.message_id)
