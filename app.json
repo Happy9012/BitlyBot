@@ -1,8 +1,8 @@
 {
     "name": "Bitly Link Shortener",
     "description": "Bot can Generate Bitly short l8nk ",
-    "repository": "https://github.com/lntechnical2/BitlyBot",
-    "keywords": ["Bitly", "pyrogram", "telegram bot"],
+    "repository": "https://github.com/Happy9012/BitlyBot",
+    "keywords": ["Shareus", "pyrogram", "telegram bot"],
     "env": {
         "TOKEN": {
             "description": "Your Bot token from @Botfather"
