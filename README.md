@@ -10,7 +10,7 @@ Bitly Short link generator Bot
 
 * API_HASH    - From my.telegram.org
 
-* BITLY_TOKEN  - From https://bitly.is/accesstoken
+* BITLY_TOKEN  - From https://shareus.io/api
 
 ## Deploy
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Happy9012/BitlyBot)
