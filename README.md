@@ -13,7 +13,7 @@ Bitly Short link generator Bot
 * BITLY_TOKEN  - From https://bitly.is/accesstoken
 
 ## Deploy
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lntechnical2/BitlyBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Happy9012/BitlyBot)
 
 ## Support 🇮🇳
 <a href="https://t.me/lntechnical">
